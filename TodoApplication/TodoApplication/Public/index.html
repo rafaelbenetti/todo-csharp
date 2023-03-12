@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="title">Todo List Application</h1>
+            <div class="todo-add-container">
+                <input
+                    id="titleInput"
+                    type="text"
+                    class="input"
+                    placeholder="Type your next task here..."
+                />
+                <button type="button" class="button" onclick="onAddTodoItem()">
+                    Add
+                </button>
+            </div>
+            <div id="todoListContainer" class="todo-list-container"></div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
